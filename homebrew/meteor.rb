@@ -3,7 +3,7 @@ require 'formula'
 class Meteor < Formula
   homepage 'http://www.meteor.com'
   url 'http://d3sqy0vbqsdhku.cloudfront.net/meteor-package-Darwin-x86_64-0.3.6.tar.gz'
-  md5 'c5c7530a59f871fb9790ae9be9ea0a7b'
+  sha256 'daea5fcffb5ea927d4cf498606d67e87402f2debab30bb8d45b2e6914aef62c3'
 
   def startup_script
     <<-EOS
